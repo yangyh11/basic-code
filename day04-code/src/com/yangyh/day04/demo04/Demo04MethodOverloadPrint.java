@@ -11,7 +11,7 @@ package com.yangyh.day04.demo04;
  *
  * 在调用输出语句时，println方法就是进行了多种数据类型的重载。
  **/
-public class demo04MethodOverloadPrint {
+public class Demo04MethodOverloadPrint {
 
     public static void main(String[] args) {
         myPrint(10); //int
