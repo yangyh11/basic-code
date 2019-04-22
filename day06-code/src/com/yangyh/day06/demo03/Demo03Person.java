@@ -13,5 +13,9 @@ public class Demo03Person {
         Person person = new Person();
 
         person.show();
+
+        person.setAge(-20);
+        person.setName("张三");
+        person.show();
     }
 }
