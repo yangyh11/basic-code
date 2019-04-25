@@ -19,8 +19,8 @@ public class Demo07StringCount {
         Scanner sc = new Scanner(System.in);
         String input = sc.next();
 
-        int capitalCountr = 0;
-        int countLowwer = 0;
+        int countUpper = 0;
+        int countLower = 0;
         int countNumber = 0;
         int countOther =0;
 
@@ -30,17 +30,17 @@ public class Demo07StringCount {
             if (b >= 49 && b <= 57) {
                 countNumber++;
             } else if (b >= 65 && b <= 90) {
-                capitalCountr++;
+                countUpper++;
             } else if (b >= 97 && b <= 122) {
-                countLowwer++;
+                countLower++;
             } else {
                 countOther++;
             }
         }
 
         System.out.println("输入的字符串中数字出现的次数" + countNumber);
-        System.out.println("输入的字符串中大写字母出现的次数" + capitalCountr);
-        System.out.println("输入的字符串中小写字母出现的次数" + countLowwer);
+        System.out.println("输入的字符串中大写字母出现的次数" + countUpper);
+        System.out.println("输入的字符串中小写字母出现的次数" + countLower);
         System.out.println("输入的字符串中其他字符出现的次数" + countOther);
 
     }
