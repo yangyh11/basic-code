@@ -26,12 +26,28 @@ public class Demo07StringCount {
 
         byte[] bytes = input.getBytes();
 
-        for (byte b : bytes) {
-            if (b >= 49 && b <= 57) {
+        char[] chars = input.toCharArray();
+
+        //使用byte，通过ASCII判断
+//        for (byte b : bytes) {
+//            if (b >= 49 && b <= 57) {
+//                countNumber++;
+//            } else if (b >= 65 && b <= 90) {
+//                countUpper++;
+//            } else if (b >= 97 && b <= 122) {
+//                countLower++;
+//            } else {
+//                countOther++;
+//            }
+//        }
+
+        //通过char判断
+        for (char ch : chars) {
+            if (ch >= '0' && ch <= '9') {
                 countNumber++;
-            } else if (b >= 65 && b <= 90) {
+            } else if (ch >= 'A' && ch <= 'Z') {
                 countUpper++;
-            } else if (b >= 97 && b <= 122) {
+            } else if (ch >= 'a' && ch <= 'z') {
                 countLower++;
             } else {
                 countOther++;
