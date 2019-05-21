@@ -1,7 +1,7 @@
 # basic-code
 2018黑马Java课程 基础篇
 
-day04-code4:方法复习，方法重载
+day04-code:方法复习，方法重载
 
 day05-code：数组
 
