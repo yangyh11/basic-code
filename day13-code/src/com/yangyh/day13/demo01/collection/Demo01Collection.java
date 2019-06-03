@@ -1,4 +1,4 @@
-package com.yangyh.day13.demo01;
+package com.yangyh.day13.demo01.collection;
 
 import java.util.ArrayList;
 import java.util.Arrays;
