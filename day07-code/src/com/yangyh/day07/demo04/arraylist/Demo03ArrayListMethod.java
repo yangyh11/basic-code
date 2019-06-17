@@ -1,4 +1,4 @@
-package com.yangyh.day07.demo04;
+package com.yangyh.day07.demo04.arraylist;
 
 import java.util.ArrayList;
 

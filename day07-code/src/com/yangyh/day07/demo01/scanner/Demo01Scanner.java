@@ -1,4 +1,4 @@
-package com.yangyh.day07.demo01;
+package com.yangyh.day07.demo01.scanner;
 
 import java.util.Scanner; //1.导包
 

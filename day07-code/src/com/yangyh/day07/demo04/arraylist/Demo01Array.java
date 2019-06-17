@@ -1,4 +1,4 @@
-package com.yangyh.day07.demo04;
+package com.yangyh.day07.demo04.arraylist;
 
 /**
  * @description: 对象数组

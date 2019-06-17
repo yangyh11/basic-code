@@ -1,4 +1,4 @@
-package com.yangyh.day07.demo05;
+package com.yangyh.day07.demo05.arraylist;
 
 import java.util.ArrayList;
 import java.util.Random;

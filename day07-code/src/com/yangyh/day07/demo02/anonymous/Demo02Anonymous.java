@@ -1,4 +1,4 @@
-package com.yangyh.day07.demo02;
+package com.yangyh.day07.demo02.anonymous;
 
 import java.util.Scanner;
 

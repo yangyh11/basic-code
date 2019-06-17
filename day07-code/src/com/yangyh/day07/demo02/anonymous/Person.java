@@ -1,4 +1,4 @@
-package com.yangyh.day07.demo02;
+package com.yangyh.day07.demo02.anonymous;
 
 /**
  * @description: 匿名对象的使用

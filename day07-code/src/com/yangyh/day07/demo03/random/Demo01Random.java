@@ -1,4 +1,4 @@
-package com.yangyh.day07.demo03;
+package com.yangyh.day07.demo03.random;
 
 import java.util.Random;
 
@@ -16,7 +16,7 @@ import java.util.Random;
  *
  * 3.使用
  * 获取一个随机的int数字（数字范围是int范围，有正负两种）：int i = r.nextInt();
- * 获取一个随机的int数字（参数代表了范围，左闭右开）：int i = r.nextInt();
+ * 获取一个随机的int数字（参数代表了范围，左闭右开）：int i = r.nextInt(3);
  * 实际上代表的含义是：[0,3),也就是0，1，2
  **/
 public class Demo01Random {
@@ -27,6 +27,9 @@ public class Demo01Random {
 
         int i = r.nextInt();
         System.out.println("生成的随机数字是：" + i);
+
+        int j = r.nextInt(3);
+        System.out.println("生成指定范围的随机数字：" + j);
     }
 
 }

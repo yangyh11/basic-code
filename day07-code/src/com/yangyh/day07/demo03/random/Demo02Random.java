@@ -1,4 +1,4 @@
-package com.yangyh.day07.demo03;
+package com.yangyh.day07.demo03.random;
 
 import java.util.Random;
 
@@ -6,7 +6,6 @@ import java.util.Random;
  * @description: 生成指定范围的内的随机数字
  * @author: yangyh
  * @create: 2019-04-21 22:50
- *
  *
  **/
 public class Demo02Random {

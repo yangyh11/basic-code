@@ -1,4 +1,4 @@
-package com.yangyh.day07.demo02;
+package com.yangyh.day07.demo02.anonymous;
 
 /**
  * @description: 匿名对象的说明
@@ -21,11 +21,11 @@ public class Demo01Anonymous {
         Person one = new Person();
         one.name = "高圆圆";
 
-        one.show();
+        one.show(); // 高圆圆
 
         //匿名对象
         new Person().name = "赵又廷";
-
-        new Person().show();
+        // 这又是一个新的匿名对象
+        new Person().show(); // null
     }
 }

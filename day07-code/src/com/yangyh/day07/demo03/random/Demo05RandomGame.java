@@ -1,4 +1,4 @@
-package com.yangyh.day07.demo03;
+package com.yangyh.day07.demo03.random;
 
 import java.util.Random;
 import java.util.Scanner;
