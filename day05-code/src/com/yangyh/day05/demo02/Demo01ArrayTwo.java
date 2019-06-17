@@ -41,5 +41,11 @@ public class Demo01ArrayTwo {
         System.out.println(arrayB[0]);
         System.out.println(arrayB[1]);
         System.out.println(arrayB[2]);
+        System.out.println("------------");
+
+        System.out.println(array);
+        System.out.println(array[0]);
+        System.out.println(array[1]);
+        System.out.println(array[2]);
     }
 }
