@@ -19,7 +19,7 @@ import java.util.Set;
  *      3.是一个无序的集合，存储元素和取出元素的顺序有可能不一致。
  *      4.底层是一个哈希表结构（查询的速度非常快）。
  */
-public class Demo01Set {
+public class Demo01HashSet {
     public static void main(String[] args) {
         Set<Integer> hashSet = new HashSet<>();
         // 使用add方法往集合中添加元素
