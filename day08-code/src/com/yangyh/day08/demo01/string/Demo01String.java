@@ -1,4 +1,4 @@
-package com.yangyh.day08.demo01;
+package com.yangyh.day08.demo01.string;
 
 /**
  * @description: 字符串的概述和特点
@@ -10,7 +10,7 @@ package com.yangyh.day08.demo01;
  * 其实就是说：程序当中所有的双引号字符串，都是String类的对象。（就算没有new，也照样是）。
  *
  * 字符串的特点：
- * 1.字符串的内容用不可变。    【重点】
+ * 1.字符串的内容永不可变。    【重点】
  * 2.正因为字符串的内容不可改变，所以字符串是可以共享使用的。
  * 3.字符串效果上相当于是char[]字符数组，但是底层原理是byte[]字节数组。
  *

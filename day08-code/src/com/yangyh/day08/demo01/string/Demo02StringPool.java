@@ -1,4 +1,4 @@
-package com.yangyh.day08.demo01;
+package com.yangyh.day08.demo01.string;
 
 /**
  * @description: 字符串常量池
@@ -19,9 +19,9 @@ public class Demo02StringPool {
         char[] charArray = {'a', 'b', 'c'};
         String str3 = new String(charArray);
 
-        System.out.println(str1 == str2);
-        System.out.println(str1 == str3);
-        System.out.println(str2 == str3);
+        System.out.println(str1 == str2); // true
+        System.out.println(str1 == str3); // false
+        System.out.println(str2 == str3); // false
 
     }
 

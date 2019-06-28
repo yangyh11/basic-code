@@ -1,4 +1,4 @@
-package com.yangyh.day08.demo02;
+package com.yangyh.day08.demo02.string;
 
 import java.util.Scanner;
 

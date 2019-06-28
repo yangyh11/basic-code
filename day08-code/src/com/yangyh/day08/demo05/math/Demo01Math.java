@@ -1,4 +1,4 @@
-package com.yangyh.day08.demo04;
+package com.yangyh.day08.demo05.math;
 
 /**
  * @description: 数学工具类
@@ -15,7 +15,7 @@ package com.yangyh.day08.demo04;
  *
  * Math.PI:代表近似的圆周率常量（double）
  **/
-public class Demo03Math {
+public class Demo01Math {
 
     public static void main(String[] args) {
         //取绝对值

@@ -1,4 +1,4 @@
-package com.yangyh.day08.demo04;
+package com.yangyh.day08.demo05.math;
 
 /**
  * @description: Math练习
@@ -19,7 +19,7 @@ package com.yangyh.day08.demo04;
  *
  * 备注：如果使用Math.ceil方法，-10.8可以变成-10.0。注意double也是可以进行++的。
  **/
-public class Demo04MathPractise {
+public class Demo02MathPractise {
 
     public static void main(String[] args) {
 

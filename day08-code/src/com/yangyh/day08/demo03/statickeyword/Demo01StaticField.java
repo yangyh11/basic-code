@@ -1,11 +1,11 @@
-package com.yangyh.day08.demo03;
+package com.yangyh.day08.demo03.statickeyword;
 
 /**
  * @description: 静态关键字修饰成员变量
  * @author: yangyh
  * @create: 2019-04-25 13:58
  *
- * 一旦一个成员变量使用了static关键字，那么这个对象就不再属于对象自己，而是属于所在的类。对个对象共享同一份数据。
+ * 一旦一个成员变量使用了static关键字，那么这个对象就不再属于对象自己，而是属于所在的类。多个对象共享同一份数据。
  **/
 public class Demo01StaticField {
 

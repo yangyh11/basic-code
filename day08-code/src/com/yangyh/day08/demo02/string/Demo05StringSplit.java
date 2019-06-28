@@ -1,4 +1,4 @@
-package com.yangyh.day08.demo02;
+package com.yangyh.day08.demo02.string;
 
 /**
  * @description: 字符串的分割方法
@@ -10,7 +10,7 @@ package com.yangyh.day08.demo02;
  *
  * 注意事项：
  * split方法的的参数其实是一个“正则表达式”，今后学习。
- * 今天要注意的是，如果按照英文据点“.”进行切分，必须写"\\."
+ * 今天要注意的是，如果按照英文句点“.”进行切分，必须写"\\."
  * 正则表达式特殊字符要进行转义。
  **/
 public class Demo05StringSplit {
@@ -33,6 +33,7 @@ public class Demo05StringSplit {
 
         System.out.println("====================");
 
+        // 没有转义
         String str3 = "aaa.bbb.ccc";
         String[] strings3 = str3.split(".");
         System.out.println(strings3.length); //0

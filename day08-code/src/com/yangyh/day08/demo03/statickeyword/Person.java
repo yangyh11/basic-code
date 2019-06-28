@@ -1,4 +1,4 @@
-package com.yangyh.day08.demo03;
+package com.yangyh.day08.demo03.statickeyword;
 
 /**
  * @description: 静态代码块

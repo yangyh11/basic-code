@@ -1,4 +1,4 @@
-package com.yangyh.day08.demo02;
+package com.yangyh.day08.demo02.string;
 
 /**
  * @description: 按指定格式拼接字符串

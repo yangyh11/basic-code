@@ -1,4 +1,4 @@
-package com.yangyh.day08.demo04;
+package com.yangyh.day08.demo04.arrays;
 
 import java.util.Arrays;
 
