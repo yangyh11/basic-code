@@ -1,4 +1,4 @@
-package com.yangyh.day14.demo01.exception;
+package com.yangyh.day14.demo02.exception;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -24,7 +24,7 @@ import java.io.IOException;
  *      2.如果try中产生了异常，那么就会执行catch中的处理逻辑，执行完毕后catch中的处理逻辑，继续实行try...catch之后的代码。
  *      3.如果try中没有产生异常，那么就不会执行catch中异常的处理逻辑，执行完try中的代码，继续执行try...catch之后的代码。
  */
-public class Demo06TryCatch {
+public class Demo02TryCatch {
 
     public static void main(String[] args) {
         try {
