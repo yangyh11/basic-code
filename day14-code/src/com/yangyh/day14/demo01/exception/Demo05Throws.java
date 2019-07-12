@@ -19,7 +19,7 @@ import java.io.IOException;
  *          ...
  *      }
  * 注意：
- *      1.throws关键字必须写在方法的声明出。
+ *      1.throws关键字必须写在方法的声明处。
  *      2.throws关键字后面声明的异常必须是Exception或者是Exception的子类。
  *      3.方法内部如果抛出了多个异常对象，那么throws后并必须也声明多个异常。
  *          如果抛出的多个异常对象有父子类关系，那么直接声明父类异常即可。
@@ -28,7 +28,7 @@ import java.io.IOException;
  *          2）要么try...catch自己处理异常。
  */
 public class Demo05Throws {
-    /*
+    /**
         FileNotFoundException extends IOException
         如果抛出的多个异常对象有父子类关系，那么直接声明父类异常即可
         Excetion是所有异常的父类，声明Exception也可以。
@@ -44,7 +44,6 @@ public class Demo05Throws {
      * 注意：
      * FileNotFoundException是编译异常，就必须处理这个异常
      * 可以使用throws继续声明抛出FileNotFoundException这个异常对象，让方法的调用者处理。
-     *
      */
 //    private static void readFile(String fileName) throws FileNotFoundException, IOException {
     private static void readFile(String fileName) throws  IOException {
