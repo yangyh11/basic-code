@@ -1,4 +1,4 @@
-package com.yangyh.day14.demo01.exception;
+package com.yangyh.day14.demo02.exception;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -27,8 +27,8 @@ import java.io.IOException;
  *          1）要么继续使用throws声明抛出，交给方法的调用者处理，最终交给JVM处理。
  *          2）要么try...catch自己处理异常。
  */
-public class Demo05Throws {
-    /**
+public class Demo01Throws {
+    /*
         FileNotFoundException extends IOException
         如果抛出的多个异常对象有父子类关系，那么直接声明父类异常即可
         Excetion是所有异常的父类，声明Exception也可以。
