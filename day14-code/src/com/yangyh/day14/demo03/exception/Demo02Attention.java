@@ -61,6 +61,7 @@ public class Demo02Attention {
 
     /**
      * 3.多个异常一次捕获一次处理。
+     * 如果多个异常变量有父子关系，那么catch写父类异常变量。也可使用异常的超类Exception。
      **/
     private static void method03() {
         try {
