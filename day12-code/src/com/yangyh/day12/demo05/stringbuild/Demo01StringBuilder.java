@@ -1,4 +1,4 @@
-package com.yangyh.day12.demo05;
+package com.yangyh.day12.demo05.stringbuild;
 
 /**
  * @description: StringBuilder的构造方法

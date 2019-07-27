@@ -1,4 +1,4 @@
-package com.yangyh.day12.demo06;
+package com.yangyh.day12.demo06.basic.type;
 
 /**
  * @description: 包装类_装箱与拆箱

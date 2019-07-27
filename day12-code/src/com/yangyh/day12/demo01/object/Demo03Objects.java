@@ -1,4 +1,4 @@
-package com.yangyh.day12.demo01;
+package com.yangyh.day12.demo01.object;
 
 import java.util.Objects;
 

@@ -1,4 +1,4 @@
-package com.yangyh.day12.demo04;
+package com.yangyh.day12.demo04.system;
 
 import java.util.Arrays;
 
