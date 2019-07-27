@@ -3,9 +3,9 @@
 
 day04-code:方法复习，方法重载
 
-day05-code：数组
+day05-code:数组
 
-day06-code：描述类介绍与使用
+day06-code:描述类介绍与使用
 
 day07-code:常用API Scanner类、匿名对象、Random类、ArrayList集合
 
