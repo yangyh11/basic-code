@@ -1,4 +1,4 @@
-package com.yangyh.day15.demo06.sync;
+package com.yangyh.day15.demo06.sync.block;
 
 /**
  * @description: 实现卖票案例

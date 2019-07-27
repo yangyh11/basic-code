@@ -1,4 +1,4 @@
-package com.yangyh.day15.demo06.sync;
+package com.yangyh.day15.demo06.sync.block;
 
 /**
  * @description: 解决线程安全问题_同步代码块
