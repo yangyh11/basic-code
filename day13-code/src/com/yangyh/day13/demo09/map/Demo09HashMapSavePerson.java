@@ -11,7 +11,7 @@ import java.util.Map;
  * Map集合保证key是唯一的：
  *      作为key的元素，必须重写hashCode方法和equals方法，以保证key唯一
  */
-public class Demo04HashMapSavePerson {
+public class Demo09HashMapSavePerson {
     public static void main(String[] args) {
         method02();
     }
