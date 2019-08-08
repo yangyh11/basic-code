@@ -1,4 +1,4 @@
-package com.yangyh.day11.demo02;
+package com.yangyh.day11.demo02protected;
 
 /**
  * @description: 四种权限修饰符

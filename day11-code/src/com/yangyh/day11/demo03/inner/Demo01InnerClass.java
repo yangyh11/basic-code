@@ -1,4 +1,4 @@
-package com.yangyh.day11.demo03;
+package com.yangyh.day11.demo03.inner;
 
 /**
  * @description: 内部类的概念与分类

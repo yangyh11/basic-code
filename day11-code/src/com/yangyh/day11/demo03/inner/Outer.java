@@ -1,4 +1,4 @@
-package com.yangyh.day11.demo03;
+package com.yangyh.day11.demo03.inner;
 
 /**
  * @description: 内部类的同名变量访问

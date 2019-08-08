@@ -1,7 +1,7 @@
-package com.yangyh.day11.demo02.sub;
+package com.yangyh.day11.demo02protected.sub;
 
 
-import com.yangyh.day11.demo02.MyClass;
+import com.yangyh.day11.demo02protected.MyClass;
 
 /**
  * @description:
