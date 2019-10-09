@@ -15,7 +15,7 @@ package com.yangyh.day06.demo01;
  *
  * 2.创建，格式：
  * 类名称 对象名 = new 类名称();
- * Student stu = new Stident();
+ * Student stu = new Student();
  *
  * 3.使用，分两种情况
  * 使用成员变量：对象名.成员变量名

@@ -14,7 +14,7 @@ import java.util.concurrent.Executors;
  *      参数：
  *          int nThreads:创建线程池中包含的线程数量
  *      返回值：
- *          ExecutorService接口，返回的是ExecutorService接口的实现类对象，我们可以使用ExecutorService接口来接收（面向接口编程）
+ *          ExecutorService接口，返回的是ExecutorService接口的实现类对象-ThreadPoolExecutor，我们可以使用ExecutorService接口来接收（面向接口编程）
  * java.util.concurrent.ExecutorService：线程池接口
  *      1. submit(Runnable task)    // 提交一个 Runnable 任务用于执行
  *         用来从线程池中获取线程，调用start方法，执行线程任务
@@ -37,6 +37,7 @@ public class Demo01ThreadPool {
         executorService.submit(task);
         executorService.submit(task);
         executorService.submit(task);
+        executorService.submit(() -> System.out.println(Thread.currentThread().getName() + "创建了一个新的线程执行(lambda)"));
 
     }
 }

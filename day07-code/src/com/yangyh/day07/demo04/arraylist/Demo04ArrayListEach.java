@@ -1,6 +1,7 @@
 package com.yangyh.day07.demo04.arraylist;
 
 import java.util.ArrayList;
+import java.util.function.Consumer;
 
 /**
  * @description: 集合的遍历
@@ -21,6 +22,8 @@ public class Demo04ArrayListEach {
         for (int i = 0; i < list.size(); i++) {
             System.out.println(list.get(i));
         }
+
+        list.forEach(s -> System.out.println(s));
 
     }
 }
