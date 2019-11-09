@@ -30,5 +30,7 @@ public class Demo04MapForEach {
                 System.out.println(key + "=" + value);
             }
         });
+
+        map.forEach((k, v) -> System.out.println(k + "=" + v));
     }
 }
